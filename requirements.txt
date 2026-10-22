@@ -1,0 +1,6 @@
+basedosdados
+pandas
+pyarrow
+jupyter
+matplotlib
+plotly
