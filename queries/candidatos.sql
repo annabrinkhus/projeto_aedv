@@ -29,4 +29,4 @@ LEFT JOIN (SELECT DISTINCT id_municipio,nome  FROM `basedosdados.br_bd_diretorio
     ON dados.id_municipio = diretorio_id_municipio.id_municipio
 LEFT JOIN (SELECT DISTINCT id_municipio_tse,nome  FROM `basedosdados.br_bd_diretorios_brasil.municipio`) AS diretorio_id_municipio_tse
     ON dados.id_municipio_tse = diretorio_id_municipio_tse.id_municipio_tse
-WHERE dados.ano >= 2002
+WHERE dados.ano BETWEEN 2002 AND 2024

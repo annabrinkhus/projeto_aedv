@@ -4,3 +4,6 @@ pyarrow
 jupyter
 matplotlib
 plotly
+matplotlib
+geopandas
+altair
