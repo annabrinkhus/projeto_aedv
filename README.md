@@ -6,7 +6,7 @@ Projeto final da disciplina Análise Exploratória de Dados e Visualização (FG
 
 ## Sobre o projeto
 
-Segundo o TSE, as mulheres são 52,8% do eleitorado brasileiro, mas ocupam fração bem menor dos cargos eletivos.
+Segundo o TSE, as mulheres são 52,7% do eleitorado brasileiro, mas ocupam fração bem menor dos cargos eletivos.
 Este projeto investiga a evolução da participação feminina nas eleições brasileiras e a relaciona à política de cotas de gênero.
 
 Perguntas de domínio:
