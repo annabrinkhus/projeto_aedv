@@ -26,17 +26,17 @@ Perguntas de domínio:
 | [Câmara dos Deputados](https://dadosabertos.camara.leg.br) | Composição da Casa por gênero e partido | A fazer |
 | [IBGE/SIDRA](https://sidra.ibge.gov.br) | População por sexo, UF e município | A fazer |
 
-Recorte: eleições gerais de 2002 a 2022 e municipais de 2004 a 2024. Os dados de financiamento são consistentes a partir de 2014,
-e a cor/raça só consta a partir desse ano.
+Recorte: eleições gerais de 2002 a 2022 e municipais de 2004 a 2024. Os dados de financiamento são consistentes a partir de 2014.
 
 ## Estrutura do repositório
 
 ```
 ├── notebooks/
-│   ├── download.ipynb   # baixa os dados do BigQuery e salva em data/
-│   └── artigo.ipynb        # análise em formato de artigo
-├── queries/                # consultas SQL usadas
-├── data/                   # arquivos locais (não versionados)
+│   ├── download.ipynb         # baixa os dados do BigQuery e salva em data/
+│   └── artigo.ipynb           # análise em formato de artigo
+│   └── questoes_individuais/   # notebooks utilizados para desenvolver as questões
+├── queries/                   # consultas SQL usadas
+├── data/                      # arquivos locais (não versionados)
 ├── requirements.txt
 └── README.md
 ```
@@ -52,12 +52,3 @@ e a cor/raça só consta a partir desse ano.
    Na primeira execução, o navegador pede login no Google.
    Isso cria os arquivos em `data/` (a pasta não vai para o GitHub por causa do tamanho).
 4. Abra `notebooks/artigo.ipynb` e rode as células em ordem.
-
-## Status
-
-- [x] Proposta (Marco 1)
-- [x] Download das candidaturas (2002 em diante)
-- [ ] Download de resultados e financiamento
-- [ ] Câmara dos Deputados e IBGE
-- [ ] Entrega intermediária (29/10)
-- [ ] Entrega final
